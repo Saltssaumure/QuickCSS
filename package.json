@@ -1,0 +1,18 @@
+{
+  "name": "quickcss",
+  "version": "1.0.0",
+  "description": "QuickSCSS usage template, for Custom/Quick CSS in Discord client mods.",
+  "author": "Saltssaumure <themes@saltssaumure.net>",
+  "license": "MIT",
+  "repository": "github:Saltssaumure/QuickCSS",
+  "private": true,
+  "scripts": {
+    "lint": "prettier ./scss --write --log-level warn",
+    "build": "quickscss compile",
+    "watch": "quickscss watch"
+  },
+  "dependencies": {
+    "prettier": "^3.0.3",
+    "quickscss": "^1.0.1"
+  }
+}

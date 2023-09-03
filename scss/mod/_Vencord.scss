@@ -1,0 +1,12 @@
+// Vencord-specific styles
+
+// Syncs settings shiggy with Reduced Motion mode
+// By Saltssaumure in Vencord server
+// https://discord.com/channels/1015060230222131221/1028106818368589824/1148010087852552284
+.reduce-motion {
+    .vc-settings-card:not(:hover, :focus-within) {
+        img[src*="1039992459209490513"] {
+            content: url("https://media.discordapp.net/stickers/1039992459209490513.png?size=160&passthrough=false");
+        }
+    }
+}

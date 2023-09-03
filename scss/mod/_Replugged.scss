@@ -1,0 +1,37 @@
+// Replugged-specific styles
+
+// Replaces Carl-bot with more FORG.
+// By Saltssaumure and Olaf in Replugged server
+// https://discord.com/channels/1000926524452647132/1000955971650195588/1143043939390214204
+// https://discord.com/channels/1000926524452647132/1000955971650195588/1145079207915946077
+:root:has(.headerButton-1nmDZ3[aria-label="Replugged"]) {
+    img[src*="235148962103951360"] {
+        content: url("https://cdn.discordapp.com/emojis/1004880213081075772.webp?size=96&quality=lossless");
+
+        ~ .header-2jRmjb {
+            .username-h_Y3Us {
+                font-size: 0;
+
+                &::before {
+                    content: "FORG";
+                    font-size: 1rem;
+                    color: #6ba795;
+                }
+            }
+
+            .botTag-7aX5WZ {
+                background: #6ba795;
+
+                .botText-1fD6Qk {
+                    font-size: 0;
+
+                    &::before {
+                        content: "FORG";
+                        font-size: 0.625rem;
+                        vertical-align: top;
+                    }
+                }
+            }
+        }
+    }
+}
