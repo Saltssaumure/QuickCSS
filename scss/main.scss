@@ -1,9 +1,50 @@
-// Forward other folders/files
+@forward "./import/";
 @forward "./mod";
 
-// Main SCSS styles
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+// Fix forum post action sticky bar
+// By Saltssaumure in Vencord server
+// https://discord.com/channels/1015060230222131221/1028106818368589824/1145843478803255346
+.scrollerInner-2PPAp2 {
+    overflow: unset;
+}
 
-:root {
-    --font-primary: "Noto Serif", serif;
+// Revert emojis
+// By vee in Vencord server
+// https://discord.com/channels/1015060230222131221/1015060231060983891/1091027761344295052
+[src^="/assets/571a9318fd6af1875977d03256f23214.svg"] {
+    content: url("https://vendicated.github.io/random-files/face_holding_back_tears.svg");
+}
+[style*="background-position: -200px 0px;"][style*='background-image: url("/assets/d218674f309bcbfbf56faf6074df6347.png");'] {
+    background-image: url("https://vendicated.github.io/random-files/face_holding_back_tears.svg") !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat;
+}
+[src^="/assets/e63c47fd56c7ed1e4552974baaef4b4e.svg"] {
+    content: url("https://vendicated.github.io/random-files/pleading_face.svg");
+}
+[style*="background-position: -200px -40px;"][style*='background-image: url("/assets/d218674f309bcbfbf56faf6074df6347.png");'] {
+    background-image: url("https://vendicated.github.io/random-files/pleading_face.svg") !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat;
+}
+
+// Blocks take up only required width
+.markup-eYLPri blockquote,
+.markup-eYLPri pre {
+    width: fit-content;
+}
+
+// Display blocked messages and replies as yellow line
+.groupStart-3Mlgv1:has(.blockedSystemMessage-3FmE9n) {
+    margin: 0;
+}
+.wrapper-30-Nkg:has(.blockedSystemMessage-3FmE9n) {
+    min-height: unset;
+}
+.blockedSystemMessage-3FmE9n {
+    max-height: 0;
+    overflow: hidden;
+    border-bottom: 1px double var(--status-warning);
 }
