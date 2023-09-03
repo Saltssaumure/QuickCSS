@@ -9,8 +9,8 @@ dependencies:
     specifier: ^3.0.3
     version: 3.0.3
   quickscss:
-    specifier: ^1.0.1
-    version: 1.0.1
+    specifier: ^1.0.2
+    version: 1.0.2
 
 packages:
 
@@ -201,8 +201,8 @@ packages:
     hasBin: true
     dev: false
 
-  /quickscss@1.0.1:
-    resolution: {integrity: sha512-4UT7VOnQpvC+Ud4ioACEEUgpxIUkpSpnK1NQrpyFOAaH3RreReT+hmi7gvZIb92EEQuA6oRY4F/MDxaNu/ZzAg==}
+  /quickscss@1.0.2:
+    resolution: {integrity: sha512-kxzXAIJCbQwmgPKBcYOfJf+ab3lDq+WkdFY4ovayk/udm2nH6ZBDgYqnQPIQGr6cEnPuSsV2ajt17H8FXvxstQ==}
     hasBin: true
     dependencies:
       autoprefixer: 10.4.15(postcss@8.4.29)
