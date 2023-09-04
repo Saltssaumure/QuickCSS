@@ -1,7 +1,7 @@
 {
   "name": "quickcss",
   "version": "1.0.0",
-  "description": "QuickSCSS usage template, for Custom/Quick CSS in Discord client mods.",
+  "description": "QuickSCSS usage template, for compiling SCSS and synchronising Custom/Quick CSS across multiple Discord client mods.",
   "author": "Saltssaumure <themes@saltssaumure.net>",
   "license": "MIT",
   "repository": "github:Saltssaumure/QuickCSS",

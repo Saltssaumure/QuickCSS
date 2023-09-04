@@ -3,7 +3,7 @@
 
 # QuickCSS
 
-A [QuickSCSS][quickscss] usage template, for Custom/Quick CSS in Discord client mods.
+A [QuickSCSS][quickscss] usage template, for compiling SCSS and synchronising Custom/Quick CSS across multiple Discord client mods.
 
 ## Usage
 1. [Create a copy of this template][generate].
