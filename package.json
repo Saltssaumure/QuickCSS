@@ -8,8 +8,8 @@
   "private": true,
   "scripts": {
     "lint": "prettier ./scss --write --log-level warn",
-    "build": "quickscss compile",
-    "watch": "quickscss watch"
+    "dev": "quickscss watch",
+    "build": "pnpm lint && quickscss compile"
   },
   "dependencies": {
     "prettier": "^3.0.3",
