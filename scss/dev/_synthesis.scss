@@ -1,0 +1,10 @@
+// Remove crt from website embeds
+.chatContent-3KubbW .messagesWrapper-RpOMA3 .messageListItem-ZZ7v6g .embedFull-1HGV2S {
+    .gridContainer-1cF_Ic {
+        z-index: 1;
+    }
+
+    &::after {
+        z-index: unset;
+    }
+}
