@@ -13,6 +13,6 @@
   },
   "dependencies": {
     "prettier": "^3.0.3",
-    "quickscss": "../QuickSCSS"
+    "quickscss": "link:..\\QuickSCSS"
   }
 }
