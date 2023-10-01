@@ -12,6 +12,10 @@
     "build": "pnpm lint && quickscss compile"
   },
   "dependencies": {
+    "@sass-fairy/exception": "^1.1.1",
+    "@sass-fairy/list": "^1.2.4",
+    "@sass-fairy/math": "^1.0.3",
+    "@sass-fairy/meta": "^1.0.2",
     "prettier": "^3.0.3",
     "quickscss": "link:..\\QuickSCSS"
   }
