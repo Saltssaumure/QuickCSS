@@ -1,0 +1,24 @@
+// From OIRNOIR in Replugged : #plugin-dev
+// I wonder how complicated it would be to create a plugin that added a blue checkmark (or some other sarcastic indicator) to users using one of the paid avatar decorations
+
+@use "./vars";
+@use "./selectors";
+
+// Wrappers with exceptions
+:is(#{selectors.$wrapper}):has(img[src*="avatar-decoration-presets"]:not(#{selectors.$exception})) {
+    // Usernames
+    :is(#{selectors.$username}) {
+        display: inline-flex;
+        align-items: center;
+
+        // Checkmark
+        &::after {
+            content: "";
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            margin-left: 4px;
+            background: vars.$checkmark left / cover;
+        }
+    }
+}
