@@ -3,7 +3,7 @@
 // Place BetterDiscord settings tabs above the other tabs
 // By carrot in BetterDiscord server
 // https://discord.com/channels/86004744966914048/836694789898109009/1012055025779998741
-.side-1lrxIh
+.side_b4b3f6
     > :where(
         .bd-sidebar-header,
         .bd-updates-tab,
@@ -13,7 +13,7 @@
         .bd-themes-tab,
         .pluginrepo-tab,
         .themerepo-tab,
-        :where(.bd-themes-tab, .pluginrepo-tab, .themerepo-tab, .bd-customcss-tab) + .separator-2N511j
+        :where(.bd-themes-tab, .pluginrepo-tab, .themerepo-tab, .bd-customcss-tab) + .separator_fdbcfd
     ) {
     order: -1;
 }

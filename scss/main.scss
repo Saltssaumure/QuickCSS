@@ -5,7 +5,7 @@
 // Fix forum post action sticky bar
 // By Saltssaumure in Vencord server
 // https://discord.com/channels/1015060230222131221/1028106818368589824/1145843478803255346
-.scrollerInner-2PPAp2 {
+.scrollerInner__059a5 {
     overflow: unset;
 }
 
@@ -32,19 +32,19 @@
 }
 
 // Blocks take up only required width
-.markup-eYLPri blockquote,
-.markup-eYLPri pre {
+.markup_a7e664 blockquote,
+.markup_a7e664 pre {
     width: fit-content;
 }
 
 // Display blocked messages and replies as yellow line
-.groupStart-3Mlgv1:has(.blockedSystemMessage-3FmE9n) {
+.groupStart__56db5:has(.blockedSystemMessage_e58a4c) {
     margin: 0;
 }
-.wrapper-30-Nkg:has(.blockedSystemMessage-3FmE9n) {
+.wrapper__09ecc:has(.blockedSystemMessage_e58a4c) {
     min-height: unset;
 }
-.blockedSystemMessage-3FmE9n {
+.blockedSystemMessage_e58a4c {
     max-height: 0;
     overflow: hidden;
     border-bottom: 1px double var(--status-warning);
